@@ -75,7 +75,7 @@ based on what I actually need to see day-to-day as a platform operator.`,
     liveUrl: '',
     portfolioUrl: '',
     githubUrl: '',
-    screenshot: '', // Add: admin-app.png
+    screenshot: 'admin-app.jpg',
     color: '#10b981',
   },
   {
