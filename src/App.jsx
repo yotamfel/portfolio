@@ -22,18 +22,20 @@ function ProjectCard({ project }) {
       </div>
 
       {project.screenshots?.length > 0 && (
-        <div className={`grid gap-2 ${project.screenshots.length > 1 ? 'grid-cols-2' : ''}`}>
+        <div className="space-y-2">
           {project.screenshots.map((s, i) => (
             <img key={i} src={`${import.meta.env.BASE_URL}screenshots/${s}`}
               alt={`${project.name} screenshot ${i + 1}`}
-              className="w-full max-h-64 object-cover object-top rounded-xl border border-slate-600/30" />
+              className="w-full rounded-xl border border-slate-600/30" />
           ))}
         </div>
       )}
       {project.screenshot && !project.screenshots && (
         <img src={`${import.meta.env.BASE_URL}screenshots/${project.screenshot}`}
           alt={project.name}
-          className="w-full max-h-64 object-cover object-top rounded-xl border border-slate-600/30" />
+          className={`rounded-xl border border-slate-600/30 ${
+            project.screenshotTall ? 'w-48 mx-auto' : 'w-full max-h-72 object-cover object-top'
+          }`} />
       )}
 
       <p className="text-slate-200 text-sm leading-relaxed whitespace-pre-line">{project.description}</p>
