@@ -52,7 +52,7 @@ search that translates plain English questions into database queries.`,
     liveUrl: 'https://fourth-and-data.up.railway.app',
     portfolioUrl: 'https://fourth-and-data.up.railway.app/portfolio',
     githubUrl: 'https://github.com/yotamfel/NFL_Project',
-    screenshot: '', // Add: fourth-and-data.png
+    screenshot: 'fourth-and-data.png',
     color: '#f59e0b',
   },
   {
@@ -98,7 +98,7 @@ analytical approach for the AI feedback.`,
     liveUrl: 'https://running-app-production-bb02.up.railway.app',
     portfolioUrl: '',
     githubUrl: 'https://github.com/yotamfel/running-app',
-    screenshot: '', // Add: running-tracker.png
+    screenshot: 'running-tracker.png',
     color: '#3b82f6',
   },
   {
@@ -121,7 +121,7 @@ real daily needs, designed the data structure, and iterated based on actual usag
     liveUrl: 'https://babyfeeding-production.up.railway.app',
     portfolioUrl: '',
     githubUrl: 'https://github.com/yotamfel/baby_feeding',
-    screenshot: '', // Add: baby-feeding.png
+    screenshot: 'baby-feeding.png',
     color: '#8b5cf6',
   },
 ]
