@@ -13,11 +13,11 @@ export const PERSONAL = {
   linkedin: '', // Add your LinkedIn URL here
 }
 
-export const ABOUT = `Data analyst with hands-on experience in data validation, quality assurance, and cross-source analysis.
-Currently at Mobileye, working on driving datasets — validating structured data and video clips,
+export const ABOUT = `Data analyst with experience in data validation, quality assurance, and cross-source analysis.
+Background includes QA work on driving datasets at Mobileye — validating structured data and video clips,
 identifying discrepancies, and improving data quality for computer vision systems.
 
-I build data-driven side projects to sharpen my analytical skills — designing the logic, defining
+I build data-driven projects to apply and sharpen my analytical skills — designing the logic, defining
 metrics, making architectural decisions, and using AI-assisted development (Claude Code) to bring
 them to production. I focus on the data layer: what to measure, how to structure it, and what insights
 to surface. The projects below reflect that approach.`
