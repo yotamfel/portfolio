@@ -8,7 +8,7 @@ export const PERSONAL = {
   name: 'Yotam Feldheim',
   title: 'Data Analyst',
   subtitle: 'Turning raw data into clear answers — from validation and analysis to building data products with AI-assisted development.',
-  email: 'ertuk5186@gmail.com',
+  email: 'yotam6p@gmail.com',
   github: 'https://github.com/yotamfel',
   linkedin: '', // Add your LinkedIn URL here
 }
