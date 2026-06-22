@@ -98,4 +98,26 @@ real daily needs, designed the data structure, and iterated based on actual usag
     githubUrl: '',
     color: '#8b5cf6',
   },
+  {
+    id: 'admin-app',
+    name: 'Admin Mobile App',
+    tagline: 'Android companion app for real-time platform monitoring',
+    description: `A mobile admin dashboard for the Fourth & Data platform — built so I can monitor
+user activity, respond to feedback, and track feature usage from my phone without opening a browser.
+
+Connects to the same API as the web platform. I designed the screens and data layout
+based on what I actually need to see day-to-day as a platform operator.`,
+    tech: ['React Native', 'Expo', 'REST API', 'Mobile UI'],
+    highlights: [
+      'Real-time dashboard: user count, visit stats (today/7d/30d), unresolved feedback',
+      'Sortable user list with activity tracking — last active, total visits, 7-day activity',
+      'Feedback management with threaded chat — read, reply, resolve, delete from the phone',
+      'Feature usage tracking: page popularity, AI call counts, thumbs up/down quality metrics',
+      'Notification badge for new feedback — polls every 30 seconds',
+    ],
+    liveUrl: '',
+    portfolioUrl: '',
+    githubUrl: 'https://github.com/yotamfel/NFL_admin_app',
+    color: '#10b981',
+  },
 ]
