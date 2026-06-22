@@ -119,7 +119,7 @@ real daily needs, designed the data structure, and iterated based on actual usag
       'Statistics dashboard showing feeding patterns and trends over time',
       'In active daily use by the family since launch',
     ],
-    liveUrl: 'https://babyfeeding-production.up.railway.app',
+    liveUrl: 'https://babyfeeding-production.up.railway.app/demo',
     portfolioUrl: '',
     githubUrl: 'https://github.com/yotamfel/baby_feeding',
     screenshot: 'baby-feeding.png',
