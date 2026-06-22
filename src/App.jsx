@@ -24,7 +24,7 @@ function ProjectCard({ project }) {
       {project.screenshot && (
         <img src={`${import.meta.env.BASE_URL}screenshots/${project.screenshot}`}
           alt={project.name}
-          className="w-full rounded-xl border border-slate-600/30" />
+          className="w-full max-h-64 object-cover object-top rounded-xl border border-slate-600/30" />
       )}
 
       <p className="text-slate-200 text-sm leading-relaxed whitespace-pre-line">{project.description}</p>
