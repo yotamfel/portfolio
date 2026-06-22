@@ -12,7 +12,7 @@ function Badge({ children, color }) {
 function ProjectCard({ project }) {
   const c = project.color
   return (
-    <div className="bg-slate-700/50 border border-slate-600/50 rounded-2xl p-6 space-y-4 hover:border-slate-500 hover:shadow-md transition-all">
+    <div className="bg-slate-800/60 border border-slate-600/50 rounded-2xl p-6 space-y-4 hover:border-slate-500 hover:shadow-md transition-all">
       <div>
         <div className="flex items-center gap-2 mb-1">
           <div className="w-2 h-2 rounded-full" style={{ background: c }} />
@@ -63,7 +63,7 @@ function ProjectCard({ project }) {
 
 export default function App() {
   return (
-    <div className="min-h-screen bg-slate-800 text-slate-300">
+    <div className="min-h-screen bg-slate-900 text-slate-300">
       <div className="max-w-3xl mx-auto px-6 py-16 space-y-20">
 
         {/* Hero */}
@@ -96,7 +96,7 @@ export default function App() {
         {/* Skills */}
         <section>
           <h2 className="text-xs font-bold uppercase tracking-widest text-amber-500 mb-4">Skills & Tools</h2>
-          <div className="grid grid-cols-2 sm:grid-cols-3 gap-4 bg-slate-700/50 border border-slate-600/40 rounded-2xl p-6">
+          <div className="grid grid-cols-2 sm:grid-cols-3 gap-4 bg-slate-800/60 border border-slate-600/40 rounded-2xl p-6">
             {SKILLS.map(s => (
               <div key={s.category}>
                 <p className="text-white text-xs font-semibold mb-2">{s.category}</p>
