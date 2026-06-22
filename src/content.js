@@ -26,7 +26,7 @@ export const SKILLS = [
   { category: 'Core Analysis', items: ['SQL (PostgreSQL)', 'Python (Pandas, NumPy)', 'Excel / Google Sheets', 'Power BI', 'Data validation & QA'] },
   { category: 'Data & Tools', items: ['Database design', 'ETL pipeline logic', 'Statistical analysis', 'Data cleaning & recovery', 'Cross-source comparison'] },
   { category: 'AI & Productivity', items: ['Claude Code (AI-assisted dev)', 'Prompt engineering', 'AI API integration', 'AI-powered analytics'] },
-  { category: 'Technical', items: ['Linux', 'Git / GitHub', 'REST APIs', 'Basic web development', 'Docker (basic)'] },
+  { category: 'Technical', items: ['Linux', 'Git / GitHub', 'Data visualization', 'Report generation'] },
 ]
 
 export const PROJECTS = [
