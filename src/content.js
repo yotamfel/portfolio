@@ -73,7 +73,7 @@ based on what I actually need to see day-to-day as a platform operator.`,
     ],
     liveUrl: '',
     portfolioUrl: '',
-    githubUrl: 'https://github.com/yotamfel/NFL_admin_app',
+    githubUrl: '',
     color: '#10b981',
   },
   {
