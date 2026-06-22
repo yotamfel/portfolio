@@ -21,7 +21,7 @@ function ProjectCard({ project }) {
         <p className="text-slate-400 text-sm">{project.tagline}</p>
       </div>
 
-      <p className="text-slate-300 text-xs leading-relaxed whitespace-pre-line">{project.description}</p>
+      <p className="text-slate-300 text-sm leading-relaxed whitespace-pre-line">{project.description}</p>
 
       <div className="flex flex-wrap gap-1.5">
         {project.tech.map(t => <Badge key={t} color={c}>{t}</Badge>)}
@@ -29,7 +29,7 @@ function ProjectCard({ project }) {
 
       <ul className="space-y-1.5">
         {project.highlights.map((h, i) => (
-          <li key={i} className="text-slate-300 text-xs leading-relaxed flex gap-2">
+          <li key={i} className="text-slate-300 text-sm leading-relaxed flex gap-2">
             <span className="text-slate-500 shrink-0 mt-0.5">-</span>
             <span>{h}</span>
           </li>
@@ -90,7 +90,7 @@ export default function App() {
         {/* About */}
         <section>
           <h2 className="text-xs font-bold uppercase tracking-widest text-amber-500 mb-3">About</h2>
-          <p className="text-slate-300 text-sm leading-relaxed whitespace-pre-line">{ABOUT}</p>
+          <p className="text-slate-300 text-base leading-relaxed whitespace-pre-line">{ABOUT}</p>
         </section>
 
         {/* Skills */}
@@ -102,7 +102,7 @@ export default function App() {
                 <p className="text-white text-xs font-semibold mb-2">{s.category}</p>
                 <ul className="space-y-1">
                   {s.items.map(item => (
-                    <li key={item} className="text-slate-400 text-xs">{item}</li>
+                    <li key={item} className="text-slate-400 text-sm">{item}</li>
                   ))}
                 </ul>
               </div>
