@@ -10,7 +10,7 @@ export const PERSONAL = {
   subtitle: 'Turning raw data into clear answers — from validation and analysis to building data products with AI-assisted development.',
   email: 'yotam6p@gmail.com',
   github: 'https://github.com/yotamfel',
-  linkedin: '', // Add your LinkedIn URL here
+  linkedin: 'https://www.linkedin.com/in/yotam-feldheim',
 }
 
 export const ABOUT = `Data analyst with experience in data validation, quality assurance, and cross-source analysis.
@@ -52,6 +52,7 @@ search that translates plain English questions into database queries.`,
     liveUrl: 'https://fourth-and-data.up.railway.app',
     portfolioUrl: 'https://fourth-and-data.up.railway.app/portfolio',
     githubUrl: 'https://github.com/yotamfel/NFL_Project',
+    screenshot: '', // Add: fourth-and-data.png
     color: '#f59e0b',
   },
   {
@@ -74,6 +75,7 @@ based on what I actually need to see day-to-day as a platform operator.`,
     liveUrl: '',
     portfolioUrl: '',
     githubUrl: '',
+    screenshot: '', // Add: admin-app.png
     color: '#10b981',
   },
   {
@@ -96,6 +98,7 @@ analytical approach for the AI feedback.`,
     liveUrl: '',
     portfolioUrl: '',
     githubUrl: 'https://github.com/yotamfel/running-app',
+    screenshot: '', // Add: running-tracker.png
     color: '#3b82f6',
   },
   {
@@ -118,6 +121,7 @@ real daily needs, designed the data structure, and iterated based on actual usag
     liveUrl: '',
     portfolioUrl: '',
     githubUrl: 'https://github.com/yotamfel/baby_feeding',
+    screenshot: '', // Add: baby-feeding.png
     color: '#8b5cf6',
   },
 ]

@@ -21,6 +21,12 @@ function ProjectCard({ project }) {
         <p className="text-slate-200 text-sm">{project.tagline}</p>
       </div>
 
+      {project.screenshot && (
+        <img src={`${import.meta.env.BASE_URL}screenshots/${project.screenshot}`}
+          alt={project.name}
+          className="w-full rounded-xl border border-slate-600/30" />
+      )}
+
       <p className="text-slate-200 text-sm leading-relaxed whitespace-pre-line">{project.description}</p>
 
       <div className="flex flex-wrap gap-1.5">
@@ -71,7 +77,7 @@ export default function App() {
           <h1 className="text-5xl font-black text-white tracking-tight">{PERSONAL.name}</h1>
           <p className="text-amber-500 text-sm font-bold uppercase tracking-widest">{PERSONAL.title}</p>
           <p className="text-slate-200 text-base max-w-xl mx-auto leading-relaxed">{PERSONAL.subtitle}</p>
-          <div className="flex justify-center gap-4 pt-2">
+          <div className="flex justify-center gap-4 pt-2 flex-wrap">
             {PERSONAL.github && (
               <a href={PERSONAL.github} target="_blank" rel="noopener noreferrer"
                 className="text-xs text-slate-300 hover:text-white transition-colors">GitHub</a>
@@ -84,6 +90,10 @@ export default function App() {
               <a href={`mailto:${PERSONAL.email}`}
                 className="text-xs text-slate-300 hover:text-white transition-colors">{PERSONAL.email}</a>
             )}
+            <a href={`${import.meta.env.BASE_URL}cv.pdf`} target="_blank" rel="noopener noreferrer"
+              className="text-xs px-3 py-1 rounded-lg bg-amber-500/15 text-amber-500 border border-amber-500/30 hover:bg-amber-500/25 transition-colors">
+              Download CV
+            </a>
           </div>
         </header>
 
