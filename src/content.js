@@ -95,7 +95,7 @@ analytical approach for the AI feedback.`,
     ],
     liveUrl: '',
     portfolioUrl: '',
-    githubUrl: '',
+    githubUrl: 'https://github.com/yotamfel/running-app',
     color: '#3b82f6',
   },
   {
@@ -117,7 +117,7 @@ real daily needs, designed the data structure, and iterated based on actual usag
     ],
     liveUrl: '',
     portfolioUrl: '',
-    githubUrl: '',
+    githubUrl: 'https://github.com/yotamfel/baby_feeding',
     color: '#8b5cf6',
   },
 ]
