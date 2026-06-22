@@ -95,7 +95,7 @@ analytical approach for the AI feedback.`,
       'Mobile-first Hebrew RTL interface installable as a phone app',
       'Progress tracking with pace and distance trend visualization',
     ],
-    liveUrl: '',
+    liveUrl: 'https://running-app-production-bb02.up.railway.app',
     portfolioUrl: '',
     githubUrl: 'https://github.com/yotamfel/running-app',
     screenshot: '', // Add: running-tracker.png
@@ -118,7 +118,7 @@ real daily needs, designed the data structure, and iterated based on actual usag
       'Statistics dashboard showing feeding patterns and trends over time',
       'In active daily use by the family since launch',
     ],
-    liveUrl: '',
+    liveUrl: 'https://babyfeeding-production.up.railway.app',
     portfolioUrl: '',
     githubUrl: 'https://github.com/yotamfel/baby_feeding',
     screenshot: '', // Add: baby-feeding.png
