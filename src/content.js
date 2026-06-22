@@ -52,7 +52,7 @@ search that translates plain English questions into database queries.`,
     liveUrl: 'https://fourth-and-data.up.railway.app',
     portfolioUrl: 'https://fourth-and-data.up.railway.app/portfolio',
     githubUrl: 'https://github.com/yotamfel/NFL_Project',
-    screenshot: 'fourth-and-data.png',
+    screenshots: ['fourth-and-data.png', 'fourth-and-data-compare.png'],
     color: '#f59e0b',
   },
   {
